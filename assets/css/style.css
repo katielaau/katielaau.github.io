@@ -303,19 +303,19 @@ li img {
 
 }
 
-#bobaguys-container {
+.bobaguys-container {
 	position: fixed;
 	width: 50%;
 	height: 100%;
-	background-color: #F8F8FF;
-	-webkit-transform: translateX(150%);
+	background-color: #B0C4DE;
+	-webkit-transform: translateX(200%);
 	-webkit-transition: all 0.7s;
 }
 
 .bobaguys-active {
 	-webkit-transform: translateX(100%);
 	-moz-transform: translateX(100%);
-	transform: translateX(100%);
+	-o-transform: translateX(100%);
 }
 
 #bobaguys-title {
@@ -358,7 +358,7 @@ li img {
 	left: 50%;
 	margin-right: -50%;
 	-webkit-transform: translate(-50%, -50%);
-	background-color: #F8F8FF;
+	background-color: #B0C4DE;
 }
 
 .bobaguys-location-list {

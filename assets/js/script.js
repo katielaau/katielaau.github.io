@@ -25,19 +25,31 @@ $(document).ready(function() {
 
   $('#lets-drink').click(function() {
     $('#carousel').css({'margin-left' : "-200%"});
+    if ($('.bobaguys-container').hasClass('bobaguys-active')) {
+      $('.bobaguys-container').removeClass('bobaguys-active');
+    }
   });
 
   $('#about-button').click(function() {
     $('#carousel').css({'margin-left' : "-100%"});
-    console.log($('#carousel')[0].style.marginLeft);
+    if ($('.bobaguys-container').hasClass('bobaguys-active')) {
+      $('.bobaguys-container').removeClass('bobaguys-active');
+    }
   });
 
   $('#boba-pic').click(function() {
     $('#carousel').css({'margin-left' : "0%"});
+    if ($('.bobaguys-container').hasClass('bobaguys-active')) {
+      $('.bobaguys-container').removeClass('bobaguys-active');
+    }
   });
 
   $('#bobaguys').click(function() {
-    $('#bobaguys-container').addClass('bobaguys-active');
+    if ($('.bobaguys-container').hasClass('bobaguys-active')) {
+      $('.bobaguys-container').removeClass('bobaguys-active');
+    } else {
+      $('.bobaguys-container').addClass('bobaguys-active');
+    }
   });
 
 });
