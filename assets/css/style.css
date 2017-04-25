@@ -35,6 +35,8 @@ li:hover {
 	opacity: 1;
 	font-weight: bold;
 	-webkit-transition: 0.4s all;
+	-moz-transition: 0.4s all;
+	-o-transition: 0.4s all;
 	cursor: pointer;
 }
 
@@ -71,13 +73,15 @@ li img {
 	width: 100%;
 	-webkit-transition: all .3s;
 	-moz-transition: all .3s;
-	transition: all .3s;
+	-o-transition: all .3s;
 }
 
 .carousel-container {
 	width: 100%;
 	left: 50%;
 	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
 	height: 100%;
 	overflow: hidden;
 	position: relative;
@@ -88,6 +92,8 @@ li img {
 	height: 100%;
 	margin-left: 0%;
 	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
 }
 
 .carousel-item {
@@ -109,6 +115,8 @@ li img {
     border-radius: 50%;
     border: 1px solid #fff;
     -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
     color: black;
 }
 
@@ -124,6 +132,8 @@ li img {
     border-radius: 50%;
     border: 1px solid #fff;
     -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
     color: black;
 }
 
@@ -151,6 +161,8 @@ li img {
 	left: 50%;
 	margin-right: -50%;
 	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
 	font-family: 'Amatic SC', cursive;
 	font-size: 90px;
 	font-color: black;
@@ -163,6 +175,8 @@ li img {
 	left: 50%;
 	margin-right: -50%;
 	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
 	font-family: 'Amatic SC', cursive;
 	font-size: 48px;
 	font-color: black;
@@ -178,6 +192,8 @@ li img {
 	left: 50%;
 	margin-right: -50%;
 	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
 	font-family: 'Amatic SC', cursive;
 	font-size: 55px;
 	font-color: black;
@@ -198,6 +214,8 @@ li img {
 	left: 50%;
 	margin-right: -50%;
 	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
 	width: 900px;
 }
 
@@ -217,11 +235,17 @@ li img {
 .boba-shop img {
 	width: 200px;
 	opacity: 0.5;
+	-webkit-transition: 0.4s all;
+	-moz-transition: 0.4s all;
+	-o-transition: 0.4s all;
 }
 
 .boba-shop img:hover {
 	opacity: 1;
+	width: 230px;
 	-webkit-transition: 0.4s all;
+	-moz-transition: 0.4s all;
+	-o-transition: 0.4s all;
 	cursor: pointer;
 }
 
@@ -277,6 +301,8 @@ li img {
 	left: 50%;
 	margin-right: -50%;
 	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
 }
 
 #drinks {
@@ -289,6 +315,8 @@ li img {
 	left: 50%;
 	margin-right: -50%;
 	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
 }
 
 #drinks-placeholder {
@@ -297,6 +325,8 @@ li img {
 	left: 50%;
 	margin-right: -50%;
 	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
 	font-family: 'Amatic SC', cursive;
 	font-size: 48px;
 	text-align: center;
@@ -307,9 +337,13 @@ li img {
 	position: fixed;
 	width: 50%;
 	height: 100%;
-	background-color: #B0C4DE;
+	background-color: #B0E0E6;
 	-webkit-transform: translateX(200%);
+	-moz-transform: translateX(200%);
+	-o-transform: translateX(200%);
 	-webkit-transition: all 0.7s;
+	-moz-transition: all 0.7s;
+	-o-transition: all 0.7s;
 }
 
 .bobaguys-active {
@@ -324,6 +358,8 @@ li img {
 	left: 50%;
 	margin-right: -50%;
 	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
 	font-family: 'Amatic SC', cursive;
 	font-size: 55px;
 	font-color: black;
@@ -337,6 +373,8 @@ li img {
 	left: 52%;
 	margin-right: -50%;
 	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
 }
 
 #bobaguys-location-header {
@@ -345,6 +383,8 @@ li img {
 	left: 50%;
 	margin-right: -50%;
 	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
 	font-family: 'Amatic SC', cursive;
 	font-size: 32px;
 	font-color: black;
@@ -358,7 +398,9 @@ li img {
 	left: 50%;
 	margin-right: -50%;
 	-webkit-transform: translate(-50%, -50%);
-	background-color: #B0C4DE;
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	background-color: #B0E0E6;
 }
 
 .bobaguys-location-list {
@@ -377,6 +419,8 @@ li img {
 	left: 50%;
 	margin-right: -50%;
 	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
 	text-align: center;
 	font-family: 'Amatic SC', cursive;
 	font-family: 'Asap', sans-serif;
@@ -391,6 +435,8 @@ li img {
 	left: 50%;
 	margin-right: -50%;
 	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
 	font-family: 'Amatic SC', cursive;
 	font-size: 32px;
 	font-color: black;
@@ -404,6 +450,8 @@ li img {
 	left: 50%;
 	margin-right: -50%;
 	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
 	text-align: center;
 	font-family: 'Amatic SC', cursive;
 	font-family: 'Asap', sans-serif;
@@ -418,10 +466,44 @@ li img {
 	left: 50%;
 	margin-right: -50%;
 	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
 	text-align: center;
 	font-family: 'Amatic SC', cursive;
 	font-size: 24px;
 	color: black;
 	font-weight: bold;
 	text-decoration: none;
+}
+
+.coming-soon-container {
+	position: fixed;
+	width: 50%;
+	height: 100%;
+	background-color: #B0E0E6;
+	-webkit-transform: translateX(200%);
+	-moz-transform: translateX(200%);
+	-o-transform: translateX(200%);
+	-webkit-transition: all 0.7s;
+	-moz-transition: all 0.7s;
+	-0-transition: all 0.7s;
+}
+
+#coming-soon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	font-family: 'Amatic SC', cursive;
+	font-size: 48px;
+	text-align: center;
+}
+
+.coming-soon-active {
+	-webkit-transform: translateX(100%);
+	-moz-transform: translateX(100%);
+	-o-transform: translateX(100%);
 }
