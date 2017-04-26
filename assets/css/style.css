@@ -167,6 +167,7 @@ li img {
 	font-size: 90px;
 	font-color: black;
 	font-weight: bold;
+	opacity: 0.8;
 }
 
 #subtitle {
@@ -180,6 +181,7 @@ li img {
 	font-family: 'Amatic SC', cursive;
 	font-size: 48px;
 	font-color: black;
+	opacity: 0.8;
 }
 
 #about-item {
@@ -198,6 +200,7 @@ li img {
 	font-size: 55px;
 	font-color: black;
 	font-weight: bold;
+	opacity: 0.8;
 }
 
 #about-text {
@@ -206,6 +209,7 @@ li img {
 	font-size: 28px;
 	font-color: black;
 	text-align: center;
+	opacity: 0.7;
 }
 
 #about-text-container {
@@ -317,6 +321,7 @@ li img {
 	-webkit-transform: translate(-50%, -50%);
 	-moz-transform: translate(-50%, -50%);
 	-o-transform: translate(-50%, -50%);
+	opacity: 0.7;
 }
 
 #drinks-placeholder {
@@ -330,6 +335,7 @@ li img {
 	font-family: 'Amatic SC', cursive;
 	font-size: 48px;
 	text-align: center;
+	opacity: 0.7;
 
 }
 
@@ -362,7 +368,7 @@ li img {
 	-o-transform: translate(-50%, -50%);
 	font-family: 'Amatic SC', cursive;
 	font-size: 55px;
-	font-color: black;
+	color: white;
 	font-weight: bold;	
 }
 
@@ -375,6 +381,7 @@ li img {
 	-webkit-transform: translate(-50%, -50%);
 	-moz-transform: translate(-50%, -50%);
 	-o-transform: translate(-50%, -50%);
+	opacity: 0.7;
 }
 
 #bobaguys-location-header {
@@ -387,7 +394,7 @@ li img {
 	-o-transform: translate(-50%, -50%);
 	font-family: 'Amatic SC', cursive;
 	font-size: 32px;
-	font-color: black;
+	color: white;
 	font-weight: bold;
 }
 
@@ -409,7 +416,9 @@ li img {
 	font-family: 'Asap', sans-serif;
 	font-size: 14px;
 /*	line-height: 5px;*/
-	font-color: black;
+/*	color: #708090;*/
+	color: black;
+	opacity: 0.7;
 }
 
 #bobaguys-description {
@@ -426,7 +435,9 @@ li img {
 	font-family: 'Asap', sans-serif;
 	font-size: 16px;
 /*	line-height: 5px;*/
-	font-color: black;
+/*	color: #708090;*/
+	color: black;
+	opacity: 0.7;
 }
 
 #bobaguys-tips-header {
@@ -439,7 +450,7 @@ li img {
 	-o-transform: translate(-50%, -50%);
 	font-family: 'Amatic SC', cursive;
 	font-size: 32px;
-	font-color: black;
+	color: white;
 	font-weight: bold;
 }
 
@@ -457,7 +468,9 @@ li img {
 	font-family: 'Asap', sans-serif;
 	font-size: 16px;
 /*	line-height: 5px;*/
-	font-color: black;
+	/*color: #708090;*/
+	color: black;
+	opacity: 0.7;
 }
 
 #bobaguys-website a {
@@ -471,7 +484,7 @@ li img {
 	text-align: center;
 	font-family: 'Amatic SC', cursive;
 	font-size: 24px;
-	color: black;
+	color: white;
 	font-weight: bold;
 	text-decoration: none;
 }
@@ -500,6 +513,7 @@ li img {
 	font-family: 'Amatic SC', cursive;
 	font-size: 48px;
 	text-align: center;
+	opacity: 0.7;
 }
 
 .coming-soon-active {
