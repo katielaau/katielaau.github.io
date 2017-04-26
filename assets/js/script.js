@@ -19,6 +19,8 @@ $(document).ready(function() {
     }
     if ($('.bobaguys-container').hasClass('bobaguys-active')) {
       $('.bobaguys-container').removeClass('bobaguys-active');
+    } else if ($('.coming-soon-container').hasClass('coming-soon-active')) {
+      $('.coming-soon-container').removeClass('coming-soon-active');
     }
   });
 
@@ -33,6 +35,8 @@ $(document).ready(function() {
     }
     if ($('.bobaguys-container').hasClass('bobaguys-active')) {
       $('.bobaguys-container').removeClass('bobaguys-active');
+    } else if ($('.coming-soon-container').hasClass('coming-soon-active')) {
+      $('.coming-soon-container').removeClass('coming-soon-active');
     }
   });
 
@@ -40,6 +44,8 @@ $(document).ready(function() {
     $('#carousel').css({'margin-left' : "-200%"});
     if ($('.bobaguys-container').hasClass('bobaguys-active')) {
       $('.bobaguys-container').removeClass('bobaguys-active');
+    } else if ($('.coming-soon-container').hasClass('coming-soon-active')) {
+      $('.coming-soon-container').removeClass('coming-soon-active');
     }
   });
 
@@ -47,6 +53,8 @@ $(document).ready(function() {
     $('#carousel').css({'margin-left' : "-100%"});
     if ($('.bobaguys-container').hasClass('bobaguys-active')) {
       $('.bobaguys-container').removeClass('bobaguys-active');
+    } else if ($('.coming-soon-container').hasClass('coming-soon-active')) {
+      $('.coming-soon-container').removeClass('coming-soon-active');
     }
   });
 
@@ -54,6 +62,8 @@ $(document).ready(function() {
     $('#carousel').css({'margin-left' : "0%"});
     if ($('.bobaguys-container').hasClass('bobaguys-active')) {
       $('.bobaguys-container').removeClass('bobaguys-active');
+    } else if ($('.coming-soon-container').hasClass('coming-soon-active')) {
+      $('.coming-soon-container').removeClass('coming-soon-active');
     }
   });
 
